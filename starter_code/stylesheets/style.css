@@ -8,3 +8,35 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+:root {
+    --color-prmairy: #540B51;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    background-color: var(--color-prmairy);
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.nav .content {
+    display: flex;
+}
+
+.nav .logo {
+    width: 15rem;
+}
+.nav button {
+    background-color: var(--color-prmairy);
+    border: 0;
+}
+
+.collapsable {
+    display: none;
+}
